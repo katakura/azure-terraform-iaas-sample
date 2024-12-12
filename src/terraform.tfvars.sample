@@ -1,0 +1,21 @@
+// global settings
+location = "japaneast"
+resource_group_name = "rg-test"
+base_name = "test"
+
+// network settings
+vnet_cidr = "10.100.0.0/24"
+
+// virtual machine settings
+vm_size = "Standard_B2s"
+
+// ssh settings
+vm_username = "<admin_account>"
+vm_public_key = "<your_ssh_public_key>"
+
+// mysql settings
+mysql_admin_username = "dbadmin"
+mysql_admin_password = "<database_password>"
+mysql_sku_name = "B_Standard_B1ms"
+mysql_database_size = 20
+mysql_database_version = "8.0.21"
